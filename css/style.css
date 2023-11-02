@@ -1,0 +1,58 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.keyboard{
+    width: 35vw;
+}
+
+.screen{
+    width: 100%;
+    height: 20vh;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: beige;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.buttons{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btn{
+    width:5vw;
+    height: 9vh;
+    margin: 5px 0;
+
+}
+.btn-space{
+    width: 22vw;
+}
+.btn-cut{
+    width: 49%;
+}
+.btn-send{
+    width: 49%;
+}
+
+.show-msg{
+    height: auto;
+    min-height: 10vh;
+    border-radius: 12px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    background-color: beige;
+    pointer-events: none;
+
+}
